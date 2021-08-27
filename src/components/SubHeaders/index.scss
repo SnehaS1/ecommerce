@@ -1,0 +1,54 @@
+.subHeader-wrapper {
+    border-bottom: 2px solid #f4f6f8;
+    padding: 10px 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  90px 130px 150px 230px 225px auto;
+    margin-top: 70px;
+    grid-column-gap: 5px;
+    .pill1,
+    .pill2,
+    .pill3,
+    .pill4 {
+        display: grid;
+        grid-template-columns: 20px auto;
+        border-radius: 10px;
+        padding: 6px 10px;
+        // margin-right: 5px;
+        // margin-bottom: 3px;
+       
+        cursor: auto;
+        display: grid;
+        grid-template-columns: 30px auto;
+        background-color: #f5f5f5;
+        .subPillIcon {
+            margin-top: 7px;
+            width: 30px;
+        }
+        .subpill {
+            display: grid;
+            grid-template-rows: auto auto;
+            font-size: 10px;
+            color: #494b4b;
+            text-align: left;
+            padding-left: 5px;
+            .secondRow {
+                font-size: 14px;
+                line-height: 14px;
+                color: #000;
+                font-weight: 700;
+            }
+        }
+    }
+    .pill1 {
+        background-color: rgba(0, 152, 61, 0.25);
+        width: 130px;
+    }
+    .pill2 {
+        width: 210px;
+        background-color: rgba(255,217,100,.25);
+    }
+    .pill3, .pill4{
+        width: 205px;
+    }
+}

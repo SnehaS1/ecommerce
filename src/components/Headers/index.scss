@@ -1,0 +1,74 @@
+.header-wrapper {
+    background-color: #fff;
+    // box-shadow: 0 4px 15px hsla(0, 0%, 69.8%, 0.18);
+    border-bottom: 2px solid #f4f6f8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    z-index: 10;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: 80px 300px auto 300px;
+    .header-logo {
+        height: 65px;
+        width: 70px;
+        img {
+            height: 60px;
+        }
+    }
+    .search-wrap {
+        flex-grow: 1;
+        background: #f2f2f2;
+        border-radius: 8px;
+        margin: 10px;
+        display: -webkit-flex;
+        display: flex;
+        max-width: 600px;
+        height: 44px;
+        justify-content: center;
+        align-items: center;
+        input {
+            background-color: transparent;
+            border: 0;
+            -webkit-flex-grow: 1;
+            flex-grow: 1;
+            font-size: 14px;
+            padding: 5px 20px;
+            outline: none;
+        }
+    }
+    .location-wrap {
+        display: flex;
+        font-size: 14px;
+        -webkit-align-items: center;
+        align-items: center;
+        text-transform: capitalize;
+        margin: 0 20px;
+    }
+    .sign-login {
+        display: flex;
+        justify-content: flex-end;
+        height: 70px;
+        line-height: 70px;
+        .sign-up {
+            font-weight: 500;
+            color: #00983d;
+            background-color: transparent;
+            border: 0;
+            font-size: 15px;
+        }
+        .sign-in {
+            border-right: 1px solid #ccc;
+            padding-right: 10px;
+            margin-right: 10px;
+            height: 50px;
+            font-weight: 500;
+            color: #494b4b;
+            background-color: transparent;
+            border: 0;
+            font-size: 15px;
+        }
+    }
+}
